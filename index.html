@@ -11,22 +11,9 @@
 <body>
 
 <div class="container">
-    <div class="row justify-content-between">
+    <div class="row">
         <div class="col-md-2">
             <div class="header_box">Lattitude</div>    
-        </div>
-
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
-                </a>
-              
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="https://barbara-gordon.github.io/WeatherPy/maxtemp.html">Max Temperature</a>
-                <a class="dropdown-item" href="https://barbara-gordon.github.io/WeatherPy/humidity.html">Humidity</a>
-                <a class="dropdown-item" href="https://barbara-gordon.github.io/WeatherPy/cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="https://barbara-gordon.github.io/WeatherPy/windspeed.html">Windspeed</a>
-            </div>
         </div>
     </div>
     <!--TO DO Add Buttons and dropdown-->  
@@ -45,14 +32,14 @@
         <div class="col-md-4">
             <h2>Visualizations</h2>
             <div class = "row">
-                <div class="col-md-6">
-                    <img src="output\LatVsTemp.png" alt = "LatVsTemp.png" class = "img-fluid">
-                    <img src="output\LatVsHumidity.png" alt = "LatVsHumidity.png" class = "img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <img src="output\LatVsWindSpeed.png" alt = "LatVsWindSpeed.png" class = "img-fluid">
-                    <img src="output\LatVsCloudiness.png" alt = "LatVsCloudiness.png" class = "img-fluid">
-                </div>
+                    <div class="col-md-6 col-sm-12">
+                            <a href="https://barbara-gordon.github.io/maxtemp.html"><img src="output\LatVsTemp.png" alt = "LatVsTemp.png" class = "img-fluid"></a>
+                            <a href="https://barbara-gordon.github.io/humidity.html"><img src="output\LatVsHumidity.png" alt = "LatVsHumidity.png" class = "img-fluid"></a>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <a href="https://barbara-gordon.github.io/windspeed.html"><img src="output\LatVsWindSpeed.png" alt = "LatVsWindSpeed.png" class = "img-fluid"></a>
+                            <a href="https://barbara-gordon.github.io/cloudiness.html"><img src="output\LatVsCloudiness.png" alt = "LatVsCloudiness.png" class = "img-fluid"></a>
+                    </div>
             </div>
         </div>
     </div>
